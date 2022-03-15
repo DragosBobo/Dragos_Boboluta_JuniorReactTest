@@ -1,9 +1,9 @@
-.header__container{
+.navbar__container{
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
-.header{
+.navbar{
     
     display: flex;
     width: 90vw;
@@ -14,13 +14,13 @@
     font-family: 'Raleway', sans-serif;
    
 }
-.header__left{
+.navbar__left{
     
     display: flex;
    
     
 }
-.header__leftComponent{
+.navbar__leftComponent{
     
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
     margin-right: 15px;
     cursor: pointer;
 }
-.header__right{
+.navbar__right{
     
     display: flex;
     position: absolute;
@@ -39,7 +39,7 @@
     width: 8%;
     cursor: pointer;
 }
-.header__rightComponent{
+.navbar__rightComponent{
     
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@
     justify-content: center;
     
 }
-.header__logo{
+.navbar__logo{
     position: absolute;
     right: 50%;
     top: 30%;
